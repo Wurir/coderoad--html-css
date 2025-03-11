@@ -1,46 +1,21 @@
-/* 0-0-1 */
-p {
-    color: greenyellow;
+.first {
+    height: 100px;
+    width: 100px;
+    background-color: black;
 }
 
-/* 0-0-1 */
-p {
-    color: green;
+.second {
+    height: 1rem;
+    width: 1rem;
+    background-color: red;
 }
 
-
-/* 1-0-0 */
-#first {
-    color: yellow;
+.third {
+    height: 1em;
+    width: 1em;
+    background-color: green;
 }
 
-/* 0-1-0 */
-.paragraph {
-    color: brown;
-}
-
-/* 1-1-0 */
-#first.paragraph {
-    color: black;
-}
-
-/* 1-1-1 */
-p#first.paragraph {
-    color: gray;
-}
-
-p {
-    color: pink !important;
-}
-
-p.paragraph {
-    color: darkblue !important;
-}
-
-body {
-    color: blueviolet;
-}
-
-div {
-    color: coral;
+.big-font {
+    font-size: 32px;
 }
