@@ -1,16 +1,34 @@
-/* 0-1-0 */
-.warning {
-    color: white;
-    background-color: black;
-    text-align: center;
+/* 0-0-1 */
+p {
+    color: greenyellow;
 }
 
-/* 0-2-0 */
-.warning.warning--active {
-    color: red;
-}
-
-/* 0-1-0 */
-.warning {
+/* 0-0-1 */
+p {
     color: green;
+}
+
+
+/* 1-0-0 */
+#first {
+    color: yellow;
+}
+
+/* 0-1-0 */
+.paragraph {
+    color: brown;
+}
+
+/* 1-1-0 */
+#first.paragraph {
+    color: black;
+}
+
+/* 1-1-1 */
+p#first.paragraph {
+    color: gray;
+}
+
+p {
+    color: pink !important;
 }
