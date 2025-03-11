@@ -1,9 +1,16 @@
+/* 0-1-0 */
 .warning {
     color: white;
     background-color: black;
     text-align: center;
 }
 
+/* 0-2-0 */
 .warning.warning--active {
     color: red;
+}
+
+/* 0-1-0 */
+.warning {
+    color: green;
 }
