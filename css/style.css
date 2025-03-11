@@ -1,9 +1,9 @@
-a, a:visited {
-    color: green;
-    text-decoration: none;
+.warning {
+    color: white;
+    background-color: black;
+    text-align: center;
 }
 
-a:hover {
-    color: yellowgreen;
-    text-decoration: underline;
+.warning.warning--active {
+    color: red;
 }
