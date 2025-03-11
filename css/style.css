@@ -1,21 +1,22 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 .first {
-    height: 100px;
-    width: 100px;
+    width: 100vw;
+    height: 100vh;
     background-color: black;
 }
 
 .second {
-    height: 1rem;
-    width: 1rem;
+    width: 100px;
+    height: 100vh;
     background-color: red;
 }
 
 .third {
-    height: 1em;
-    width: 1em;
+    width: 100vw;
+    height: 100px;
     background-color: green;
-}
-
-.big-font {
-    font-size: 32px;
 }
