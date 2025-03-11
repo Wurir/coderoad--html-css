@@ -32,3 +32,15 @@ p#first.paragraph {
 p {
     color: pink !important;
 }
+
+p.paragraph {
+    color: darkblue !important;
+}
+
+body {
+    color: blueviolet;
+}
+
+div {
+    color: coral;
+}
