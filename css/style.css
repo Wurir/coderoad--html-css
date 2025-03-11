@@ -1,14 +1,21 @@
-.first {
+.square {
     width: 100px;
     height: 100px;
-    overflow: hidden;
 
-    background-color: red;
 }
 
-.second {
-    width: 120%;
-    height: 90%;
+.hidden {
+    display: none;
+}
 
+.first{
     background-color: black;
+    visibility: hidden;
+}
+.second{
+    background-color: red;
+}
+.third{
+    background-color: green;
+    opacity: 0.5;
 }
