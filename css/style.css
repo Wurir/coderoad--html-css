@@ -1,11 +1,13 @@
-html {
-    font-family: 'Lato', sans-serif;
+html, body {
+    margin: 0;
+    padding: 0;
 }
 
-div {
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.05);;
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.25);
+.hero {
+    height: 400px;
+
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
