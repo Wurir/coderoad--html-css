@@ -16,29 +16,29 @@
 
 <body>
 
-    <!-- block__element--modifier -->
-    <form
-        class="contact-form contact-form--grey"
-        action="https://form-data-to-html-table.examples.coderoad.pl/"
-        method="post"
-    >
-        <input
-            class="contact-form__input contact-form__input--full-width contact-form__input--transparent"
-            type="email"
-            name="name"
-            placeholder="Type your email"
-            required
-        >
-        <textarea
-            class="contact-form__input contact-form__input--transparent"
-            name="message"
-            cols="30"
-            rows="10"
-            placeholder="Message"
-            required
-        ></textarea>
-        <br/>
-        <button class="contact-form__submit">SEND</button>
-    </form>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Last name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ala</td>
+                <td>Kotowicz</td>
+                <td rowspan="2">22</td>
+            </tr>
+            <tr>
+                <td>Janina</td>
+                <td>Kowalska</td>
+            </tr>
+            <tr>
+                <td colspan="2">Puszek</td>
+                <td>2</td>
+            </tr>
+        </tbody>
+    </table>
 
 </html>
