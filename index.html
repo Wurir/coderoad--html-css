@@ -22,6 +22,12 @@
     >
 
         <input
+            type="hidden"
+            name="hidden-value"
+            value="hidden-value"
+        >
+
+        <input
             type="name"
             name="name"
             placeholder="Type your name and last name"
@@ -42,6 +48,70 @@
             placeholder="Message"
             required
         ></textarea>
+
+        <hr />
+
+        <input
+            type="number"
+            name="age"
+            placeholder="Type your age"
+            required
+        >
+
+        <hr />
+
+        <input
+            type="password"
+            name="password"
+            placeholder="Type your password"
+            required
+        >
+
+        <hr />
+
+        <input
+            type="checkbox"
+            name="checkbox"
+            id="checkbox-1"
+            required
+        >
+        <label for="checkbox-1"> Checkbox test</label>
+
+        <hr />
+
+        <label>
+            <input
+                type="radio"
+                name="radio"
+                value="radio-1"
+            >
+            Radio 1
+        </label>
+        <label>
+            <input
+                type="radio"
+                name="radio"
+                value="radio-2"
+            >
+            Radio 2
+        </label>
+        <label>
+            <input
+                type="radio"
+                name="radio"
+                value="radio-3"
+            >
+            Radio 3
+        </label>
+        <hr />
+
+        <select name="select">
+            <option value="option-1">Option 1</option>
+            <option value="option-2">Option 2</option>
+            <option value="option-3">Option 3</option>
+        </select>
+
+        <hr />
 
         <input
             type="submit"
