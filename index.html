@@ -16,29 +16,38 @@
 
 <body>
 
-    <table>
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Last name</th>
-                <th>Age</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Ala</td>
-                <td>Kotowicz</td>
-                <td rowspan="2">22</td>
-            </tr>
-            <tr>
-                <td>Janina</td>
-                <td>Kowalska</td>
-            </tr>
-            <tr>
-                <td colspan="2">Puszek</td>
-                <td>2</td>
-            </tr>
-        </tbody>
-    </table>
+    <form
+        action="https://form-data-to-html-table.examples.coderoad.pl"
+        method="post"
+    >
+
+        <input
+            type="name"
+            name="name"
+            placeholder="Type your name and last name"
+            required
+        />
+
+        <input
+            type="email"
+            name="email"
+            placeholder="Type your email address"
+            required
+        />
+
+        <textarea
+            name="message"
+            cols="30"
+            rows="10"
+            placeholder="Message"
+            required
+        ></textarea>
+
+        <input
+            type="submit"
+            value="SEND"
+        />
+
+    </form>
 
 </html>
