@@ -1,31 +1,22 @@
-.input {
-    border-radius: 4px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    min-height: 24px;
+.bg {
+    width: 300px;
+    height: 400px;
+    background-color: yellow;
+}
+
+.bg > div {
     width: 100%;
-
-    padding-left: 5px;
-    margin-bottom: 10px;
-    box-sizing: border-box;
-
-    outline: none;
+    height: 30%;
+    position: relative;
+    right: -50px;
 }
 
-::placeholder {
-    color: red;
+.bg-rgba {
+    background-color: rgba(255, 0, 0, .5);
 }
 
-input[type="submit"] {
-    border: none;
-    background-color: rgb(18, 171, 18);
-    padding: 5px;
-    border-radius: 4px;
-    color: white;
-    min-width: 100px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
+.bg-opacity {
+    background-color: rgba(255, 0, 0);
+    opacity: .5;
 }
 
-input[type="submit"]:hover {
-    background-color: green;
-}
