@@ -1,8 +1,0 @@
-.footer__container {
-    display: flex;
-    justify-content: space-around;
-}
-
-.footer__copyrights, .footer__logo, .footer__sponsor {
-    width: 25%;
-}
