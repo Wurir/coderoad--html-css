@@ -1,18 +1,21 @@
-.wide-screen-wrapper {
-	width: 50%;
-	background-color: black;
+
+@media all {
+	body {
+		font-size: 60px;
+		color: yellow;
+	}
 }
 
-.wide-screen {
-	width: 100%;
-	padding-top: 56.25%;
-	position: relative
+@media screen {
+	body {
+		font-size: 60px;
+		color: red;
+	}
 }
 
-.video {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+@media print {
+	body {
+		font-size: 5px;
+		color: green;
+	}
 }
