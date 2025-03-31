@@ -2,14 +2,14 @@ body {
 	color: blue;
 }
 
-@media (min-width: 500px) {
+@media (max-width: 1000px) {
 	body {
-		color: red;
+		color: green;
 	}
 }
 
-@media (min-width: 1000px) {
+@media (max-width: 500px) {
 	body {
-		color: green;
+		color: red;
 	}
 }
