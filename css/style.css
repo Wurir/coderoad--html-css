@@ -1,21 +1,15 @@
-
-@media all {
-	body {
-		font-size: 60px;
-		color: yellow;
-	}
+body {
+	color: blue;
 }
 
-@media screen {
+@media (min-width: 500px) {
 	body {
-		font-size: 60px;
 		color: red;
 	}
 }
 
-@media print {
+@media (min-width: 1000px) {
 	body {
-		font-size: 5px;
 		color: green;
 	}
 }
